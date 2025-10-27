@@ -1,0 +1,10 @@
+cd "C:\Users\SAHIL DHONDE\GitDemo1"
+git init
+git config --global user.name "Sahil Dhonde"
+git config --global user.email "sahil.dhonde098@gmail.com"
+git add .
+git commit -m "initial commit by Sahil"
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/SahilDhonde-9/GitDemo1.git
+git push -u origin main
