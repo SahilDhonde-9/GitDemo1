@@ -1,0 +1,17 @@
+mkdir GitDemo1
+cd GitDemo1
+git init
+echo "Hello from Sahil" > demo.txt
+git add demo.txt
+git status
+git commit -m "initial commit by Sahil"
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/SahilDhonde-9/GitDemo1.git
+git push -u origin main
+
+
+
+
+
+
